@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	font-size: 16px;
+	line-height: 18px;
+	width: 600px;
+	background-color: AliceBlue;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-right: 15px;
+	text-align: justify;
+}
+
+img{
+	height: 300px;
+	
+	
+}
+
+h1 {
+	text-align: center;
+}
+
+body {
+	background-image: url("Slike/23.jpeg")
+	
+}
+
+h3 {
+	text-align: center;
+}
+
+a{
+	color: black;
+	background-color: white;
+	padding: 5px;
+	line-height: 25px;
+	border: 2px;
+}
+
+h2 {
+	text-align: center;
+}
+
+ul {	/*centriranje*/
+			padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 300px;
+			} 
+	li {	display:inline; /*prikaz u jednom redu*/
+			background-color:LightCoral;
+			padding:20px;
+			border: 2px solid IndianRed;
+		}
+	li:active {background-color:IndianRed;} /*kada kliknemo na li mijenja se boja*/
+		
+	li a {	color:white; 
+			font-family: "CabinSketch", sans-serif; 
+			/*font-family: "Montserrat", sans-serif; */
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}

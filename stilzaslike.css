@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	
+	font-size: 16px;
+	line-height: 18px;
+	background-color: AliceBlue;
+	padding-left: 15px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-right: 15px;
+	text-align: center;
+}
+
+img{
+	height: 200px;
+}
+
+h1 {
+	font-size: 75px;
+	text-align: center;
+    font-family: "renehoblaj";
+    src:url("renehoblaj.ttf") format("truetype"); /* ukoliko se ttf font ne nalazi u istoj mapi kao i html tada treba navesti i ime_mape/ime_fonta.ttf */
+	
+}
+
+body {
+	background-image: url("Slike/23.jpeg")
+	
+}
+
+h3 {
+	text-align: center;
+}
+
+a{
+	color: black;
+	background-color: white;
+	padding: 5px;
+	line-height: 25px;
+	border: 2px;
+}
+
+h2 {
+	text-align: center;
+}
+
+ ul {
+	 text-align: center;
+	 
+ }
+ 
+ h6 {
+	 
+	 text-align: center;
+ }
